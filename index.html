@@ -9,11 +9,16 @@
     <h1>Rising and Setting</h1>
    <p><center>Find the time of the sunrise and sunset</center></p>
    
-<form>
+<form class="input">
    <input id="latInput" type="text" value="latitude"></input>
     <input id="longInput" type="text" value="longitude"></input>
     <button id="locationSubmit">Submit</button>
     </form>
+    
+    <div class="row">
+        <div class="column" id="rise"></div>
+        <div class="column" id="set"></div>
+    </div>
     
    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
     <script text="type/javascript" src="script.js">
@@ -23,6 +28,7 @@
     
   </body>
   <footer>
-  <a class="footer" href="https://github.com/hatchk12/CreativeProject2.git"><b>GitHub Link</b></a>
+  <a class="footer" href="https://github.com/hatchk12/CreativeProject2.git"><b>GitHub Link</b><p>Times are in  UTC and the API comes from https://sunrise-sunset.org/api</p></a>
+  
 </footer>
 </html>
