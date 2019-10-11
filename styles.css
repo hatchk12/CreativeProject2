@@ -2,12 +2,23 @@ h1{
     text-align: center;
 }
 
+body{
+    background-image: url("sunrise.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100%;
+}
+
+
+
+
 .footer {
     position: fixed;
     bottom:0;
     left:0;
     width:100%;
-    color:black;
+    color:Gold;
     text-align: center;
     text-decoration: none;
+    background-color: Black;
 }
